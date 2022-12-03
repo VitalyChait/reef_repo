@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+      "outDir": "output/server"
+    },
+    "include": ["./source/**/*"],
+    "exclude": ["node_modules, ./old"]
+}

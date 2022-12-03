@@ -1,0 +1,43 @@
+{
+  "name": "reef_backend",
+  "version": "1.0.0",
+  "description": "Vitaly.C for reef backend",
+  "main": "./output/index.js",
+  "types": "./output/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "start": "node ./output/server/server.js",
+    "dev": "nodemon ./output/server/server.js",
+    "go": "tsc | node ./output/server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitalyChait/reef_repo.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "Vitaly Chait",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitalyChait/reef_repo/issues"
+  },
+  "homepage": "https://github.com/VitalyChait/reef_repo#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.11.1",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "find-config": "^1.0.0",
+    "graphql": "^15.8.0",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.7.4",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "nodemon": "^2.0.20"
+  }
+}
